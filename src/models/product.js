@@ -1,6 +1,6 @@
 import { Model } from "framz"
 
-class Product extends BaseModel {
+class Product extends Model {
     name = "product"
     url="products"
     fields = {
